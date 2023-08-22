@@ -15,6 +15,12 @@
       padding: 0;
       background-color: #f0f0f0;
     }
+
+    #album{
+      width: 600px;
+      height: 500px;
+      margin:5% auto;
+    }
     header {
       background-color: #3498db;
       color: #fff;
@@ -117,17 +123,6 @@
     .team-member img {
       max-width: 100px;
       margin-bottom: 0.5rem;
-    }
-    .social-icons {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 0.5rem;
-    }
-    .social-icon {
-      margin: 0 0.25rem;
-      font-size: 1.2rem;
-      color: #333;
     }
     .social-media-section {
   background-color: #fff;
@@ -285,97 +280,10 @@ nav ul li a {
       }
 
 }
-/* Media queries for responsiveness */
-@media only screen and (max-width: 768px) {
-    header {
-      background-size: cover;
-    }
 
-    .nav-bar {
-      padding: 0.5rem;
-    }
-
-    .nav-left {
-      display: none;
-    }
-
-    .nav-item {
-      padding: 0.25rem 0.5rem;
-    }
-
-    .newsletter-section,
-    .issues-section,
-    .team-section,
-    .social-media-section {
-      padding: 1rem;
-    }
-
-    .flipbook-container {
-      width: 100%;
-      max-width: 100%;
-      height: auto;
-      margin: 0;
-    }
-
-    .team-row {
-      flex-direction: column;
-    }
-
-    .team-member {
-      flex-basis: 100%;
-      margin-bottom: 1rem;
-    }
-
-    .social-icons {
-      justify-content: center;
-    }
-
-    /* Adjust other styles as needed for smaller screens */
-  }
 
 /* Adjust other styles as needed */
-/* Media queries for responsiveness */
-  @media only screen and (max-width: 768px) {
-    /* Existing media query styles */
 
-    /* Adjusting the navigation bar for smaller screens */
-    .nav-bar {
-      padding: 0.5rem 1rem;
-      flex-wrap: wrap;
-    }
-
-    .logo {
-      line-height: 40px; /* Adjust the line-height as needed */
-    }
-
-    .menu {
-      flex-basis: 100%;
-      margin-top: 1rem; /* Add margin to separate the logo and menu */
-    }
-
-    nav ul {
-      max-height: none; /* Display all menu items */
-      background: rgba(0, 0, 0, 0.9); /* Darken the background */
-      position: absolute; /* Take the menu out of the document flow */
-      top: 60px; /* Position the menu below the navigation bar */
-      left: 0;
-      width: 100%;
-      display: none; /* Hide the menu by default */
-      transition: 1s;
-    }
-
-    nav ul.showing {
-      display: block; /* Display the menu when showing class is applied */
-    }
-
-    nav ul li {
-      display: block; /* Display menu items as blocks */
-      padding: 16px;
-      text-align: center;
-    }
-
-    /* Adjust other styles as needed for smaller screens */
-  }
 
     /* Add more CSS styles as needed */
   </style>
@@ -413,11 +321,32 @@ nav ul li a {
     <h2>Current and Past Issues</h2>
     <div class="flipbook-container">
       <div class="flipbook">
-        <div><img src="issue1_cover.jpg" alt="Issue 1 Cover"></div>
-        <!-- add link to previous volume in another page-->
-        <!-- Add more pages (images) for the flipbook -->
-      </div>
-    </div>
+          <div style="background: url(flipbook/1.jpg); background-size: 100% 100%;"></div>
+          <div style="background: url(flipbook/2.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/3.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/4.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/5.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/6.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/7.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/8.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/9.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/10.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/11.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/12.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/13.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/14.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/15.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/16.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/17.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/18.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/19.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/20.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/21.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/22.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/23.jpg); background-size: cover"></div>
+          <div style="background: url(flipbook/24.jpg); background-size: cover"></div>
+     </div>
+   </div>
   </section>
 
  
@@ -450,14 +379,14 @@ nav ul li a {
         </div>
       </div>
       <div class="team-member">
-        <img src="co_convener.jpg" alt="Co-Convener">
+        <img src="Team photos/Ayush Sharma.jpg" alt="Co-Convener">
         <div>
-          <h3>Jane Smith</h3>
+          <h3>Ayush Sharma</h3>
           <p>Co-Convener</p>
           <div class="social-icons">
-            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
-            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
-            <a href="#" class="social-icon"><i class="far fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/ayushsharmareal/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/ayushsharmareal/" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="mailto:sharmaayush002@gmail.com" class="social-icon"><i class="far fa-envelope"></i></a>
           </div>
         </div>
       </div>
@@ -582,17 +511,8 @@ nav ul li a {
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/turn.js/3/turn.min.js"></script>
-  <script>
-    // Wait for the DOM to be fully loaded
-    $(document).ready(function() {
-      // Initialize the flipbook
-      $(".flipbook").turn({
-        width: 800,
-        height: 600,
-        autoCenter: true
-      });
-    });
-  </script>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+ 
   <script> $(document).ready(function() {
     $(".menu-icon").on("click", function() {
           $("nav ul").toggleClass("showing");
@@ -610,5 +530,19 @@ $(window).on("scroll", function() {
           $('nav').removeClass('black');
     }
 })</script>
+ <script>
+  $(document).ready(function() {
+    // Initialize the flipbook
+    $(".flipbook").turn({
+      width: 800,
+      height: 600,
+      autoCenter: true
+    });
+  });
+</script>
+<script src="turn.js"> </script>
+<script> 
+// $('#album').turn({gradients: true, acceleration: true});
+</script>
 </body>
 </html>
