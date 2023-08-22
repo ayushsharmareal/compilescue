@@ -334,7 +334,48 @@ nav ul li a {
   }
 
 /* Adjust other styles as needed */
+/* Media queries for responsiveness */
+  @media only screen and (max-width: 768px) {
+    /* Existing media query styles */
 
+    /* Adjusting the navigation bar for smaller screens */
+    .nav-bar {
+      padding: 0.5rem 1rem;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      line-height: 40px; /* Adjust the line-height as needed */
+    }
+
+    .menu {
+      flex-basis: 100%;
+      margin-top: 1rem; /* Add margin to separate the logo and menu */
+    }
+
+    nav ul {
+      max-height: none; /* Display all menu items */
+      background: rgba(0, 0, 0, 0.9); /* Darken the background */
+      position: absolute; /* Take the menu out of the document flow */
+      top: 60px; /* Position the menu below the navigation bar */
+      left: 0;
+      width: 100%;
+      display: none; /* Hide the menu by default */
+      transition: 1s;
+    }
+
+    nav ul.showing {
+      display: block; /* Display the menu when showing class is applied */
+    }
+
+    nav ul li {
+      display: block; /* Display menu items as blocks */
+      padding: 16px;
+      text-align: center;
+    }
+
+    /* Adjust other styles as needed for smaller screens */
+  }
 
     /* Add more CSS styles as needed */
   </style>
