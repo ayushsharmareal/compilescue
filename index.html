@@ -16,17 +16,6 @@
       background-color: #f0f0f0;
     }
 
-    #album{
-      width: 600px;
-      height: 500px;
-      margin:5% auto;
-    }
-    header {
-      background-color: #3498db;
-      color: #fff;
-      text-align: center;
-      padding: 0rem;
-    }
     header img {
       max-width: 100px;
     }
@@ -51,33 +40,7 @@
         transform: translateY(0);
       }
     }
-    .nav-bar {
-      background-color: #3498db;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem;
-      position: absolute;
-      top: 0;
-      right: 0;
-      left: 0;
-    }
-    .nav-left {
-      display: flex;
-      align-items: center;
-    }
-    .nav-item {
-      padding: 0.5rem 1rem;
-      text-transform: uppercase;
-      font-weight: bold;
-      color: #fff;
-      text-decoration: none;
-      transition: background-color 0.3s, transform 0.3s;
-    }
-    .nav-item:hover {
-      background-color: #1b4f72;
-      transform: scale(1.05);
-    }
+   
     .newsletter-section,
     .issues-section,
     .team-section {
@@ -97,6 +60,7 @@
       height: 600px;
       margin: 0 auto;
       transition: transform 0.3s;
+      position: relative;
     }
     .flipbook-container:hover {
       transform: scale(1.05);
@@ -115,6 +79,7 @@
       padding: 1rem;
       transition: background-color 0.3s, transform 0.3s;
       animation: fadeInUp 1s ease-in-out;
+      position: relative;
     }
     .team-member:hover {
       background-color: #f0f0f0;
@@ -207,6 +172,7 @@ nav {
       line-height: 60px;
 }
 
+
 nav ul {
       line-height: 60px;
       list-style: none;
@@ -246,8 +212,7 @@ nav ul li a {
       color: #fff;
       display: none;
 }
-
-@media(max-width: 786px) {
+/* @media only screen and (max-width: 786px) {
 
       .logo {
             position: fixed;
@@ -279,7 +244,9 @@ nav ul li a {
             display: block;
       }
 
-}
+      
+
+} */
 
 
 /* Adjust other styles as needed */
@@ -318,7 +285,7 @@ nav ul li a {
   </section>
 
   <section id="issues" class="issues-section fixed-height-section section-dark">
-    <h2>Vol.2 Issue 2</h2>
+    <h2>Current and Past Issues</h2>
     <div class="flipbook-container">
       <div class="flipbook">
           <div style="background: url(flipbook/1.jpg); background-size: 100% 100%;"></div>
